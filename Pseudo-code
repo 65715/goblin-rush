@@ -4,8 +4,8 @@ Date: April 24,2020
 Project: Pseudo-code for the Goblin Rush programming
 ****************************************************************************/
 
-- Resolution: 800x800 (not decided at the time of writing, so an assumption)
-- Spacing: 72.7272727273 (used to create 11x11 grid)
+- Resolution: 770x770 (resolution is weird because it can fit an 11x11 grid of 70x70 squares)
+
 
 /* *********************MAIN MENU PSEUDO-CODE(INCOMPLETE)***************************************
 
@@ -24,6 +24,9 @@ draw logo at (300,400)
 
 
 /***********************MAIN GAME PSEUDO-CODE(INCOMPLETE)*******************************
+
+
+
 
 
 
