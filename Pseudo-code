@@ -4,7 +4,7 @@ Date: April 24,2020
 Project: Pseudo-code for the Goblin Rush programming
 ****************************************************************************/
 
-- Resolution: 770x770 (resolution is weird because it can fit an 11x11 grid of 70x70 squares)
+/* - Resolution: 770x770 (resolution is weird because it can fit an 11x11 grid of 70x70 squares)
 
 
 /* *********************MAIN MENU PSEUDO-CODE(INCOMPLETE)***************************************
@@ -25,7 +25,22 @@ draw logo at (300,400)
 
 /***********************MAIN GAME PSEUDO-CODE(INCOMPLETE)*******************************
 
-
+ for each square on the grid{
+   decide if it is going to be water or ground using random numbers;
+   if water block is chosen{
+     place down image of water block;
+     move up the xposition 70 pixels;
+     if the next block is the last in the row{
+      make xposition 0 and add 70 to the yposition; 
+     }
+   }
+   if ground block is chosen{
+     place down image of ground block;
+     move up the xposition 70 pixels;
+     if the next block is the last in the row{
+       make xposition 0 and add 70 to the yposition; 
+   }
+}
 
 
 
